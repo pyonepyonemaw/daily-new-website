@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily News</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- start alert -->
+    <div class="break-new">
+        <div class="break-title">Breaking New</div>
+        <div class="break-info">Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló.</div>
+    </div>
+    <!-- end alert -->
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light nav-color" id="navbar">
+        <div class="container-fluid" >
+            <a class="navbar-brand media-logo" href="#home">
+                <img src="photo/logo.png" alt="" width="150" height="30">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          <div class="offcanvas offcanvas-end media-box" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">DAILYNEWS</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active media-list media-home" aria-current="page" href="#home">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active media-list" aria-current="page" href="#business">BUSINESS</a>
+                </li><li class="nav-item">
+                  <a class="nav-link active media-list" aria-current="page" href="#fashion">FASHION</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active media-list" aria-current="page" href="#lifestyle">LIFESTYLE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active media-list" aria-current="page" href="#travel">TRAVEL</a>
+                </li>              
+              <form class="d-flex">
+                  <i class="fab fa-facebook-f media-color" data-bs-toggle="modal" data-bs-target="#facebook-social"></i>
+                  <i class="fab fa-twitter media-color" data-bs-toggle="modal" data-bs-target="#twitter-social"></i>
+                  <i class="fab fa-youtube media-color" data-bs-toggle="modal" data-bs-target="#youtube-social"></i>
+                  <i class="fab fa-pinterest-p media-color" data-bs-toggle="modal" data-bs-target="#pinterest-social"></i>
+                  <i class="fas fa-wifi media-color" data-bs-toggle="modal" data-bs-target="#wifi-social"></i>
+                  <i class="fab fa-whatsapp media-color" data-bs-toggle="modal" data-bs-target="#whatsapp-social"></i>
+              </form>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!-- end navbar -->
+    <!-- start menu -->
+    <section class="menu" id="home">
+        <div class="container-fluid menu-box">
+            <div class="container menu-d">
+                <img src="photo/img_07.png" alt="" class="menu-size">
+                <div class="row">
+                <div class="menu-data col-xxl-6 col-xl-6 col-md-6">
+                    <h3 class="menu-head">LATEST FROM THE WEB FOR YOU</h3>
+                    <button class="tec-btn">TECH</button>
+                    <button class="life-btn">LIFESTYLE</button>
+                    <span class="vertical">|</span>
+                    <span class="date-size">03. DEC 2021</span>
+                    <p class="menu-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+                <div class="col-xxl-6 col-xl-6 col-md-6 mb-5">
+                <div>
+                    <img src="photo/img_09.png" alt="" class="menu-photo">
+                    <div class="menu-icon">
+                        <button class="life-style">LIFESTYLE</button>
+                    <h3 class="menu-web">LATEST FROM THE WEB FOR YOU</h3>
+                    <i class="fas fa-calendar-alt cal-color"></i>
+                    <span class="date-value">03. DEC 2021</span>
+                    </div>
+                </div>
+                <div>
+                    <img src="photo/img_14.png" alt="" class="sample-photo">
+                    <div class="menu-style">
+                        <button class="life-bottom">FASHION</button>
+                    <h3 class="menu-web">LATEST FROM THE WEB FOR YOU</h3>
+                    <i class="fas fa-calendar-alt cal-color"></i>
+                    <span class="date-value">03. DEC 2021</span>
+                    </div>
+                </div>
+                <div>
+                    <img src="photo/img_16.png" alt="" class="sample-box">
+                    <div class="style-menu">
+                        <button class="btn-life">TRAVEL</button>
+                    <h3 class="menu-web">LATEST FROM THE WEB FOR YOU</h3>
+                    <i class="fas fa-calendar-alt cal-color"></i>
+                    <span class="date-value">03. DEC 2021</span>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- end menu -->
+    <!-- start post -->
+    <section class="post" id="business">
+      <div class="container my-5">
+        <hr class="horizontal">
+        <div class="row news-box">
+          <div class="col-md-8">
+            <h3 class="latest">LATEST POST</h3>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 5%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class="mo-box">
+              <div class="col-md-4 my-5">
+                <img src="photo/img_20.png" alt="" class="img-size">
+              </div>
+              <div class="col-md-8">
+                <h3 class="post-title">SED UT PERSICIATIS DE OMNIS ISTE NATUS ERROR SIT VOLUPTATEM</h3>
+                <button class="tec-btn my-3">FASHION</button>
+                <button class="life-btn my-3">LIFESTYLE</button>
+                <span class="da-size my-3"> 03. DEC 2021</span>
+                <p class="pa-color">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+              </div>
+            </div>
+            <hr>
+
+            <div class="mo-box">
+              <div class="col-md-4 my-5">
+                <img src="photo/img_30.png" alt="" class="img-size">
+              </div>
+              <div class="col-md-8">
+                <h3 class="post-title">SED UT PERSICIATIS DE OMNIS ISTE NATUS ERROR SIT VOLUPTATEM</h3>
+                <button class="tec-btn my-3">FASHION</button>
+                <button class="life-btn my-3">LIFESTYLE</button>
+                <span class="da-size my-3"> 03. DEC 2021</span>
+                <p class="pa-color">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+              </div>
+            </div>
+            <hr>
+
+            <div class="mo-box">
+              <div class="col-md-4 my-5">
+                <img src="photo/img_36.png" alt="" class="img-size">
+              </div>
+              <div class="col-md-8">
+                <h3 class="post-title">SED UT PERSICIATIS DE OMNIS ISTE NATUS ERROR SIT VOLUPTATEM</h3>
+                <button class="tec-btn my-3">FASHION</button>
+                <button class="life-btn my-3">LIFESTYLE</button>
+                <span class="da-size my-3"> 03. DEC 2021</span>
+                <p class="pa-color">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+              </div>
+            </div>
+            <hr>
+
+            <div class="mo-box">
+              <div class="col-md-4 my-5">
+                <img src="photo/img_41.png" alt="" class="img-size">
+              </div>
+              <div class="col-md-8">
+                <h3 class="post-title">SED UT PERSICIATIS DE OMNIS ISTE NATUS ERROR SIT VOLUPTATEM</h3>
+                <button class="tec-btn my-3">FASHION</button>
+                <button class="life-btn my-3">LIFESTYLE</button>
+                <span class="da-size my-3"> 03. DEC 2021</span>
+                <p class="pa-color">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+              </div>
+            </div>
+            <hr>
+
+            <div class="mo-box">
+              <div class="col-md-4 my-5">
+                <img src="photo/img_47.png" alt="" class="img-size">
+              </div>
+              <div class="col-md-8">
+                <h3 class="post-title">SED UT PERSICIATIS DE OMNIS ISTE NATUS ERROR SIT VOLUPTATEM</h3>
+                <button class="tec-btn my-3">FASHION</button>
+                <button class="life-btn my-3">LIFESTYLE</button>
+                <span class="da-size my-3"> 03. DEC 2021</span>
+                <p class="pa-color">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+              </div>
+            </div>
+            <hr>
+
+            <div class="mo-box">
+              <div class="col-md-4 my-5">
+                <img src="photo/img_51.png" alt="" class="img-size">
+              </div>
+              <div class="col-md-8">
+                <h3 class="post-title">SED UT PERSICIATIS DE OMNIS ISTE NATUS ERROR SIT VOLUPTATEM</h3>
+                <button class="tec-btn my-3">FASHION</button>
+                <button class="life-btn my-3">LIFESTYLE</button>
+                <span class="da-size my-3"> 03. DEC 2021</span>
+                <p class="pa-color">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+              </div>
+            </div>
+            
+
+          </div>
+          <div class="col-md-4" id="travel">
+            <h3 class="recent">RECENT NEWS</h3>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+            <div class="new-data">
+              <div class="col-md-5 mt-5">
+                <img src="photo/img_23.png" alt="" class="new-photo">
+              </div>
+              <div class="col-md-7">
+                <h5 class="new-title">LATEST FROM THE WEB FOR YOU</h5>
+                <button class="tec-btn my-1">FASHION</button>
+                <p class="day-size"> 13. DEC 2021</p>
+              </div>
+            </div>
+            <hr class="ho-space">
+
+            <div class="new-data">
+              <div class="col-md-5 mt-5">
+                <img src="photo/img_27.png" alt="" class="new-photo">
+              </div>
+              <div class="col-md-7">
+                <h5 class="new-title">LATEST FROM THE WEB FOR YOU</h5>
+                <button class="life-btn my-1">LIFESTYLE</button>
+                <p class="day-size"> 13. DEC 2021</p>
+              </div>
+            </div>
+            <hr class="ho-space">
+
+            <div class="new-data">
+              <div class="col-md-5 mt-5">
+                <img src="photo/img_32.png" alt="" class="new-photo">
+              </div>
+              <div class="col-md-7">
+                <h5 class="new-title">LATEST FROM THE WEB FOR YOU</h5>
+                <button class="tec-btn my-1">TRAVEL</button>
+                <button class="life-btn my-1">LIFESTYLE</button>
+                <p class="day-size"> 13. DEC 2021</p>
+              </div>
+            </div>
+            <hr class="ho-space">
+
+            <div class="new-data">
+              <div class="col-md-5 mt-5">
+                <img src="photo/img_35.png" alt="" class="new-photo">
+              </div>
+              <div class="col-md-7">
+                <h5 class="new-title">LATEST FROM THE WEB FOR YOU</h5>
+                <button class="tec-btn my-1">FASHION</button>
+                <button class="life-btn my-1">TRAVEL</button>
+                <p class="day-size"> 13. DEC 2021</p>
+              </div>
+            </div>
+            <hr class="ho-space">
+
+            <div class="new-data">
+              <div class="col-md-5 mt-5">
+                <img src="photo/img_62.png" alt="" class="new-photo">
+              </div>
+              <div class="col-md-7">
+                <h5 class="new-title">LATEST FROM THE WEB FOR YOU</h5>
+                <button class="tec-btn my-1">BUSINESS</button>
+                <p class="day-size"> 13. DEC 2021</p>
+              </div>
+            </div>
+            
+            <div class="local-box">
+              <h2 class="local-title">LOCAL NEWS</h2>
+              <div class="progress my-4">
+                <div class="progress-bar" role="progressbar" style="width: 5%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="col-md-12 mt-5">
+                <img src="photo/img_44.png" alt="" class="local-img">
+                <div class="local-data">
+                  <h5 class="up-title">UPCOMING WEB DESIGN CONFERENCES</h5>
+                  <button class="tec-btn my-3">FASHION</button>
+                <button class="life-btn my-3">LIFESTYLE</button>
+                <span class="da-size my-3"> 03. DEC 2021</span>
+                <p class="pa-color">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end post -->
+
+    <!-- start popular news -->
+    <section class="popular" id="fashion">
+      <div class="container-fluid popular-news">
+        <div class="row">
+          <div class="col-md-2 m-auto">
+            <h3 class="popular-title">POPULAR NEWS</h3>
+            <div class="progress my-4">
+              <div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <p class="pa-color">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            <div class="col-md-4 mt-5">
+              <div class="col-md-12 photo-box">
+                <img src="photo/img_53.png" alt="" class="popular-photo">
+                <h5 class="upcoming-title">UPCOMING WEB DESIGN CONFERENCES</h5>
+                <p class="day-data">03.DEC 2021</p>
+                <span><button class="tec-btn my-1 btn-box">FASHION</button>
+                  <button class="life-btn my-1 btn-box">LIFESTYLE</button></span>
+              </div>
+            </div>
+            <div class="col-md-4 mt-5">
+              <div class="col-md-12 photo-box">
+                <img src="photo/img_55.png" alt="" class="popular-photo">
+                <h5 class="upcoming-title">UPCOMING WEB DESIGN CONFERENCES</h5>
+                <p class="day-data">03.DEC 2021</p>
+                <span><button class="tec-btn my-1 btn-box">FASHION</button>
+                  <button class="life-btn my-1 btn-box">LIFESTYLE</button></span>
+              </div>
+            </div>
+            <div class="col-md-4 mt-5">
+              <div class="col-md-12 photo-box">
+                <img src="photo/img_57.png" alt="" class="popular-photo">
+                <h5 class="upcoming-title">UPCOMING WEB DESIGN CONFERENCES</h5>
+                <p class="day-data">03.DEC 2021</p>
+                <span><button class="tec-btn my-1 btn-box">FASHION</button>
+                  <button class="life-btn my-1 btn-box">LIFESTYLE</button></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end popular news -->
+
+    <!-- start footer1 -->
+    <section class="footer1" id="lifestyle">
+      <div class="container-fluid footer-one">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 about-box">
+              <h5 class="about">ABOUT US</h5>
+              <div class="progress my-4">
+                <div class="progress-bar" role="progressbar" style="width: 5%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p class="pa-color">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer .</p>
+              <div class="icon-box">
+                <div class="icon-size"><i class="fas fa-map-marker-alt map-color"></i></div>
+                <div><p class="map-data">123,MAIN STREET,YANGON,MYANMAR</p></div>
+              </div>
+              <div class="icon-box">
+                <div class="icon-size"><i class="fas fa-phone-volume map-color"></i></div>
+                <div><p class="map-data">+01 2345 67890<br>+01 2345 67890</p></div>
+              </div>
+              <div class="icon-box">
+                <div class="icon-size"><i class="far fa-envelope map-color"></i></div>
+                <div><p class="map-data">REPORT@DAILYNEWS.COM<br>WWW.DAILYNEWS.COM</p></div>
+              </div>
+              <hr class="ho-color">
+            </div>
+            <div class="col-md-4 popular-box">
+              <h5 class="po-post">POPULAR POST</h5>
+              <div class="progress my-4">
+                <div class="progress-bar" role="progressbar" style="width: 5%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+
+              <div class="footer1-data">
+                <div class="col-md-4 mt-3">
+                  <img src="photo/img_62.png" alt="" class="footer1-photo">
+                </div>
+                <div class="col-md-8">
+                  <h5 class="footer1-title">LATEST FROM THE WEB FOR YOU</h5>
+                  <button class="tec-btn my-1">FASHION</button>
+                  <p class="footer1-size"> 03. DEC 2021</p>
+                </div>
+              </div>
+              <hr class="ho-color">
+
+              <div class="footer1-data">
+                <div class="col-md-4 mt-3">
+                  <img src="photo/img_65.png" alt="" class="footer1-photo">
+                </div>
+                <div class="col-md-8">
+                  <h5 class="footer1-title">LATEST FROM THE WEB FOR YOU</h5>
+                  <button class="tec-btn my-1">FASHION</button>
+                  <p class="footer1-size"> 03. DEC 2021</p>
+                </div>
+              </div>
+              <hr class="ho-color">
+
+              <div class="footer1-data">
+                <div class="col-md-4 mt-3">
+                  <img src="photo/img_68.png" alt="" class="footer1-photo">
+                </div>
+                <div class="col-md-8">
+                  <h5 class="footer1-title">LATEST FROM THE WEB FOR YOU</h5>
+                  <button class="tec-btn my-1">FASHION</button>
+                  <p class="footer1-size"> 03. DEC 2021</p>
+                </div>
+              </div>
+
+              </div>
+            <div class="col-md-4 new-box">
+              <h5 class="newlet">NEWLETTER</h5>
+              <div class="progress my-4">
+                <div class="progress-bar" role="progressbar" style="width: 5%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+
+              <input type="text" placeholder="Enter Your Email Address" class="email-input">
+              <button class="sub-btn">SUBSCRIBE</button>
+              <hr class="ho-color">
+
+              <h5 class="cat-title">CATEGORIES</h5>
+              <div class="progress my-4">
+                <div class="progress-bar" role="progressbar" style="width: 5%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+
+              <div class="list">
+                <div class="col-md-6">
+                  <p class="bus-color">BUSINESS</p>
+                  <p class="fas-color">FASHION</p>
+                  <p class="tra-color">TRAVEL</p>
+                  </div>
+                  <div class="col-md-6">
+                  <p class="tech-color">TECH</p>
+                  <p class="life-color">LIFESTYLE</p>
+                  </div>
+              </div>              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end footer1 -->
+
+    <!-- start footer -->
+    <section class="footer">
+      <div class="container-fluid footer-box">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="footer-copy text-center">@ Copyright by DAILYNEWS.COM 2021. ALL RIGHT RESERVE.</p>
+          </div>
+          <div class="col-md-6 footer-list">
+            <ul>
+              <li><a href="">BUSINESS</a></li>
+              <li><a href="">FASHION</a></li>
+              <li><a href="">LIFESTYLE</a></li>
+              <li><a href="">TRAVEL</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end footer -->
+
+    <!-- start popup box for facebook  -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="facebook-social">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title font-weight-bold sign-color" id="exampleModalLabel">
+          Sign in
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- form start -->
+        <div class="container" id="sign-in-fb">
+          <h3 class="text-center font-weight-bold welcome-color">Welcome to DAILY NEWS</h3>
+          <div class="row">
+            <div class="col-sm-9 m-auto" >
+              <form action="" method="POST" class="shadow-lg p-5">
+                <div class="form-group">
+                  <input type="email" class="form-control" id="email" placeholder="Email">
+                  <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                  <a href="" class="forgot">Forgot Your Password?</a>
+                  <button type="submit" class="login-box">Log in</button>
+                  <p class="or">OR</p>
+                  <button type="submit" class="fb"><i class="fab fa-facebook fb-color"></i>Continue With Facebook</button>
+                  <a href="" class="sign-up" data-bs-toggle="modal" data-bs-target="#sign-up-box">Sign up</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- form end -->
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- end popup box for facebook -->
+
+    <!-- start popup box for twitter  -->
+    <!-- Modal -->
+<div class="modal fade" id="twitter-social">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title font-weight-bold sign-color" id="exampleModalLabel">Sign in</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- form start -->
+        <div class="container">
+          <h3 class="text-center font-weight-bold welcome-color">Welcome to DAILY NEWS</h3>
+          <div class="row">
+            <div class="col-sm-9 m-auto" >
+              <form action="" method="POST" class="shadow-lg p-5">
+                <div class="form-group">
+                  <input type="email" class="form-control" id="email" placeholder="Email">
+                  <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                  <a href="" class="forgot">Forgot Your Password?</a>
+                  <button type="submit" class="login-box">Log in</button>
+                  <p class="or">OR</p>
+                  <button type="submit" class="tw"><i class="fab fa-twitter twitter-color"></i>Continue With Twitter</button>
+                  <a href="" class="sign-up" data-bs-toggle="modal" data-bs-target="#sign-up-box">Sign up</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- form end -->
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- end popup box for twitter -->
+
+    <!-- start popup box for youtube  -->
+    <!-- Modal -->
+<div class="modal fade" id="youtube-social">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title font-weight-bold sign-color" id="exampleModalLabel">Sign in</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- form start -->
+        <div class="container">
+          <h3 class="text-center font-weight-bold welcome-color">Welcome to DAILY NEWS</h3>
+          <div class="row">
+            <div class="col-sm-9 m-auto" >
+              <form action="" method="POST" class="shadow-lg p-5">
+                <div class="form-group">
+                  <input type="email" class="form-control" id="email" placeholder="Email">
+                  <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                  <a href="" class="forgot">Forgot Your Password?</a>
+                  <button type="submit" class="login-box">Log in</button>
+                  <p class="or">OR</p>
+                  <button type="submit" class="yutb"><i class="fab fa-youtube youtube-color"></i>Continue With Youtube</button>
+                  <a href="" class="sign-up" data-bs-toggle="modal" data-bs-target="#sign-up-box">Sign up</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- form end -->
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- end popup box for youtube -->
+
+    <!-- start popup box for pinterest  -->
+    <!-- Modal -->
+<div class="modal fade" id="pinterest-social">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title font-weight-bold sign-color" id="exampleModalLabel">Sign in</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- form start -->
+        <div class="container">
+          <h3 class="text-center font-weight-bold welcome-color">Welcome to DAILY NEWS</h3>
+          <div class="row">
+            <div class="col-sm-9 m-auto" >
+              <form action="" method="POST" class="shadow-lg p-5">
+                <div class="form-group">
+                  <input type="email" class="form-control" id="email" placeholder="Email">
+                  <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                  <a href="" class="forgot">Forgot Your Password?</a>
+                  <button type="submit" class="login-box">Log in</button>
+                  <p class="or">OR</p>
+                  <button type="submit" class="pin"><i class="fab fa-pinterest-p pinterest-color"></i>Continue With Pinterest</button>
+                  <a href="" class="sign-up" data-bs-toggle="modal" data-bs-target="#sign-up-box">Sign up</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- form end -->
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- end popup box for pinterest -->
+
+    <!-- start popup box for wifi  -->
+    <!-- Modal -->
+<div class="modal fade" id="wifi-social">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title font-weight-bold sign-color" id="exampleModalLabel">Sign in</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- form start -->
+        <div class="container">
+          <h3 class="text-center font-weight-bold welcome-color">Welcome to DAILY NEWS</h3>
+          <div class="row">
+            <div class="col-sm-9 m-auto" >
+              <form action="" method="POST" class="shadow-lg p-5">
+                <div class="form-group">
+                  <input type="email" class="form-control" id="email" placeholder="Email">
+                  <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                  <a href="" class="forgot">Forgot Your Password?</a>
+                  <button type="submit" class="login-box">Log in</button>
+                  <p class="or">OR</p>
+                  <button type="submit" class="go"><i class="fab fa-google google-color"></i>Continue With Google</button>
+                  <a href="" class="sign-up" data-bs-toggle="modal" data-bs-target="#sign-up-box">Sign up</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- form end -->
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- end popup box for wifi -->
+
+    <!-- start popup box for whatsapp  -->
+    <!-- Modal -->
+<div class="modal fade" id="whatsapp-social">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title font-weight-bold sign-color" id="exampleModalLabel">Sign in</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- form start -->
+        <div class="container">
+          <h3 class="text-center font-weight-bold welcome-color">Welcome to DAILY NEWS</h3>
+          <div class="row">
+            <div class="col-sm-9 m-auto" >
+              <form action="" method="POST" class="shadow-lg p-5">
+                <div class="form-group">
+                  <input type="email" class="form-control" id="email" placeholder="Email">
+                  <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                  <a href="" class="forgot">Forgot Your Password?</a>
+                  <button type="submit" class="login-box">Log in</button>
+                  <p class="or">OR</p>
+                  <button type="submit" class="wtpp"><i class="fab fa-whatsapp whatsapp-color"></i>Continue With Whatsapp</button>
+                  <a href="" class="sign-up" data-bs-toggle="modal" data-bs-target="#sign-up-box">Sign up</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- form end -->
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- end popup box for whatsapp -->
+
+     <!-- start popup box for sign up  -->
+    <!-- Modal -->
+<div class="modal fade" id="sign-up-box">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title font-weight-bold sign-color" id="exampleModalLabel">
+          Sign Up
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" >
+        <!-- form start -->
+        <div class="container">
+          <h3 class="text-center font-weight-bold welcome-color">Welcome to DAILY NEWS</h3>
+          <div class="row"  >
+            <div class="col-sm-9 m-auto">
+              <form action="" method="POST" class="shadow-lg p-5">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="name" placeholder="Enter Name">
+                  <input type="email" class="form-control" id="email" placeholder="Enter Email">
+                  <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                  <input type="password" class="form-control" id="confirmPassword" placeholder=" Confirm Password">
+                  <button type="submit" class="login-box">Sign Up</button>
+                  <p class="or">OR</p>
+                  <button type="submit" class="tw">Cancel</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- form end -->
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- end popup box for sign up -->
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
